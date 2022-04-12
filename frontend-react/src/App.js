@@ -1,9 +1,15 @@
 import React from "react";
+import {About, Footer, Header, Skills, Testimonial, Work} from './container'
 
 const App = () => {
     return(
-        <div>
-            <h1>My New Hot Portfolio</h1>
+        <div className="App">
+            <Header />
+            <About />
+            <Work />
+            <Skills />
+            <Testimonial />
+            <Footer />
         </div>
     )
 };
