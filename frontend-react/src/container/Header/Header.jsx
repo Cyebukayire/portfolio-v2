@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion';
 
-import { AppWrap } from '../../wrapper';
+// import { AppWrap } from '../../wrapper';
 import './Header.scss'
 import {images} from '../../constants'
 
@@ -67,4 +67,5 @@ const Header = () => (
     </motion.div>
   </div>
 );
-export default AppWrap(Header, 'header')
+export default Header;
+// export default AppWrap(Header, 'header')
