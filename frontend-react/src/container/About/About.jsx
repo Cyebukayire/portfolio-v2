@@ -15,6 +15,10 @@ const About = () => {
     });
   }, []);
 
+// const abouts = [
+//   {title: "UI/UX", description: "I'm an excellent designer", imgUrl: ""}
+// ]
+
   return (
     <>
     <h2 className='head-text'> I Know that <span>Good Apps</span> <br /> means <span>Good Business</span> </h2>
@@ -28,7 +32,7 @@ const About = () => {
           className="app__profile-item"
           key={about.title + index}
         >
-          <img src={urlFor(about.imgUrl)} alt={about.title} />
+          <img src={urlFor about.imgUrl} alt={about.title} />
           <h2 className='field-title bold-text' style={{ marginTop: 20}}>{ about.title }</h2>
           <h2 className='p-text' style={{ marginTop: 10}}>{ about.description }</h2>
         </motion.div>
