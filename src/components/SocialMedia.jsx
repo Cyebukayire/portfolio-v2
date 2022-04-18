@@ -14,5 +14,4 @@ const SocialMedia = () => (
     </div>
   </div>
 );
-
 export default SocialMedia;
