@@ -37,16 +37,16 @@ const Footer = () => {
 
   return (
     <>
-      <h2 className="head-text">Take a coffee & chat with me</h2>
+      <h2 className="head-text">Chat with me</h2>
 
       <div className="app__footer-cards">
         <div className="app__footer-card ">
           <img src={images.email} alt="email" />
-          <a href="mailto:hello@micael.com" className="p-text">hello@micael.com</a>
+          <a href="mailto:hello@micael.com" className="p-text">peacecyebukayire@gmail.com</a>
         </div>
         <div className="app__footer-card">
           <img src={images.mobile} alt="phone" />
-          <a href="tel:+1 (123) 456-7890" className="p-text">+1 (123) 456-7890</a>
+          <a href="tel: (+250) 790530235" className="p-text">(+250) 790530235</a>
         </div>
       </div>
       {!isFormSubmitted ? (
@@ -68,6 +68,7 @@ const Footer = () => {
           </div>
           <button type="button" className="p-text" onClick={handleSubmit}>{!loading ? 'Send Message' : 'Sending...'}</button>
         </div>
+        
       ) : (
         <div>
           <h3 className="head-text">
@@ -75,7 +76,12 @@ const Footer = () => {
           </h3>
         </div>
       )}
+        <div className='copyright'>
+          <p className='p-text'>@2020 Peace C.</p>
+          <p className='p-text'>All rights reserved</p>
+        </div>
     </>
+    
   );
 };
 
