@@ -4,9 +4,9 @@ import { motion } from 'framer-motion';
 
 import { AppWrap, MotionWrap } from '../../wrapper';
 import { urlFor, client } from '../../client';
-import './Work.scss';
+import './Certifications.scss';
 
-const Work = () => {
+const Certifications = () => {
   const [works, setWorks] = useState([]);
   const [filterWork, setFilterWork] = useState([]);
   const [activeFilter, setActiveFilter] = useState('All');
@@ -109,7 +109,7 @@ const Work = () => {
 };
 
 export default AppWrap(
-  MotionWrap(Work, 'app__works'),
+  MotionWrap(Certifications, 'app__works'),
   'work',
   'app__primarybg',
 );
