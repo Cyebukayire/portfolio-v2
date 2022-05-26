@@ -1,8 +1,7 @@
-# Getting Started with Create React App
+# My Portfolio Version 2
+<img width="1416" alt="Screenshot 1401-03-05 at 10 04 09" src="https://user-images.githubusercontent.com/55869293/170445691-dc118852-9456-4746-9f42-360e8f96e8b8.png">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
+## How to run the project
 
 In the project directory, you can run:
 
