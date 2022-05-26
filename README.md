@@ -1,6 +1,10 @@
 # My Portfolio Version 2
 <img width="1416" alt="Screenshot 1401-03-05 at 10 04 09" src="https://user-images.githubusercontent.com/55869293/170445691-dc118852-9456-4746-9f42-360e8f96e8b8.png">
 
+## Rights
+You're free to clone this work, modify the files, change designs, and make it your own.
+Don't forget to give it a Star ![image](https://user-images.githubusercontent.com/55869293/170446222-4222c5b2-e59e-4300-8768-f86a400b2aa9.png) if you love it😄🤗
+
 ## How to run the project
 
 In the project directory, you can run:
